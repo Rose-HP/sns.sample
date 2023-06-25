@@ -9,23 +9,38 @@ import UIKit
 
 class EditViewController: UIViewController {
     
+    @IBOutlet weak var titleTextField: UITextField!
+    @IBOutlet weak var outlineTextField: UITextField!
+    @IBOutlet weak var MemoTextView: UITextView!
+    
+    
+    var saveData: UserDefaults = UserDefaults.standard
+    
+    
+    
+
+    override func viewDidLoad() {
+        
+        super.viewDidLoad()
+        
+        titleTextField.text = saveData.object(forKey: "title") as? String
+        outlineTextField.text = saveData.object(forKey: "outline") as? String
+        MemoTextView.text = saveData.object(forKey: "content") as? String
+        // Do any additional setup after loading the view.
+    }
+    
     @IBAction func previewButton(_ sender:Any){
         
         self.performSegue(withIdentifier: "ToPreview", sender: nil)
+        
+        saveData.set(titleTextField.text, forKey: "title")
+        saveData.set(outlineTextField.text, forKey: "outline")
+        saveData.set(MemoTextView.text, forKey: "content")
     }
     
     @IBAction func uploadButton(_ sender:Any){
         
     }
-    
-    
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
 
     /*
     // MARK: - Navigation
