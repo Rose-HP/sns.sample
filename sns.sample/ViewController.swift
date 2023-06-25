@@ -77,7 +77,7 @@ class ViewController: UIViewController {
                                 if (result?.user) != nil {
                                     self.saveUserData(email: email, name: name)
                                     print("Welcome to Science Lab!")
-                                    self.performSegue(withIdentifier: "ToTopView", sender: nil)
+                                    self.performSegue(withIdentifier: "NewHome", sender: nil)
                                 } else {
                                     print(error!)
                                     

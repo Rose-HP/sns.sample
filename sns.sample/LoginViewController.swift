@@ -28,7 +28,7 @@ class LoginViewController: UIViewController {
             
             Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
                 if (result?.user) != nil {
-                    self.performSegue(withIdentifier: "ToTopView", sender: nil)
+                    self.performSegue(withIdentifier: "ToHome", sender: nil)
                 } else {
                     print(error!)
                     
