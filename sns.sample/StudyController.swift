@@ -10,4 +10,8 @@ import UIKit
 
 class StudyController: UIViewController {
     
+    
+    var titles: [String] = []
+    var contents: [String] = []
+    
 }
