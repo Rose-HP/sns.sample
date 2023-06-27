@@ -6,11 +6,33 @@
 //
 
 import UIKit
+import FirebaseAuth
+import FirebaseFirestore
 
 class PreviewViewController: UIViewController {
 
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet  var outlineLabel: UILabel!
+    @IBOutlet var memoLable: UILabel!
+    @IBOutlet var username: UILabel!
+    
+    var titleText: String? = ""
+    var outlineText: String? = ""
+    var MemoText: String? = ""
+    
+    
+    @IBAction func SaveDataButton(_ sender:Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        titleLabel.text = titleText
+        outlineLabel.text = outlineText
+        memoLable.text = MemoText
+        
+        
 
         // Do any additional setup after loading the view.
     }

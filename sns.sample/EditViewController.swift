@@ -31,11 +31,24 @@ class EditViewController: UIViewController {
     
     @IBAction func previewButton(_ sender:Any){
         
+        
+        
         self.performSegue(withIdentifier: "ToPreview", sender: nil)
         
         saveData.set(titleTextField.text, forKey: "title")
         saveData.set(outlineTextField.text, forKey: "outline")
         saveData.set(MemoTextView.text, forKey: "content")
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ToPreview"
+        {
+            let nextVC = segue.destination as! PreviewViewController
+            nextVC.titleText = titleTextField.text
+            nextVC.outlineText = outlineTextField.text
+            nextVC.MemoText = MemoTextView.text
+        }
+        
     }
     
     @IBAction func uploadButton(_ sender:Any){

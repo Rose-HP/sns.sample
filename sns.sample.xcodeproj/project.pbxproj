@@ -31,6 +31,7 @@
 		684AD09B2A47FFA400B41DAF /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684AD09A2A47FFA400B41DAF /* SelectViewController.swift */; };
 		684AD09D2A4809DA00B41DAF /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684AD09C2A4809DA00B41DAF /* EditViewController.swift */; };
 		684AD09F2A480E5300B41DAF /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684AD09E2A480E5300B41DAF /* PreviewViewController.swift */; };
+		684AD0A12A4B102800B41DAF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684AD0A02A4B102800B41DAF /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		684AD09A2A47FFA400B41DAF /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
 		684AD09C2A4809DA00B41DAF /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		684AD09E2A480E5300B41DAF /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		684AD0A02A4B102800B41DAF /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				684AD09A2A47FFA400B41DAF /* SelectViewController.swift */,
 				684AD09C2A4809DA00B41DAF /* EditViewController.swift */,
 				684AD09E2A480E5300B41DAF /* PreviewViewController.swift */,
+				684AD0A02A4B102800B41DAF /* CameraViewController.swift */,
 				684834F129F5116E00E7ED25 /* Main.storyboard */,
 				684834F429F5116F00E7ED25 /* Assets.xcassets */,
 				684834F629F5116F00E7ED25 /* LaunchScreen.storyboard */,
@@ -209,6 +212,7 @@
 				684AD09D2A4809DA00B41DAF /* EditViewController.swift in Sources */,
 				6848351F2A231A7D00E7ED25 /* CommunityViewController.swift in Sources */,
 				684AD09B2A47FFA400B41DAF /* SelectViewController.swift in Sources */,
+				684AD0A12A4B102800B41DAF /* CameraViewController.swift in Sources */,
 				684AD09F2A480E5300B41DAF /* PreviewViewController.swift in Sources */,
 				684835152A10B02400E7ED25 /* HomeController.swift in Sources */,
 			);
