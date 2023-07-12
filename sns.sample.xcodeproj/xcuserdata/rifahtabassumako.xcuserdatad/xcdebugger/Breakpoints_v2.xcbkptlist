@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DB2E256C-090B-452A-ABD8-4402AEBEC897"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9759D22-6223-4EC3-A869-36CC27BE8386"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sns.sample/TopViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "TopViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A9759D22-6223-4EC3-A869-36CC27BE8386 - bc08e8cda9f62c7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.TopViewController.loginMailLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/TopViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "A9759D22-6223-4EC3-A869-36CC27BE8386 - 86eeefb55de48862"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.TopViewController.loginMailLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/TopViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "A9759D22-6223-4EC3-A869-36CC27BE8386 - ecf4e334ee379573"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.TopViewController.loginMailLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/TopViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "A9759D22-6223-4EC3-A869-36CC27BE8386 - e378a2422d82e99b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.TopViewController.loginMailLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/TopViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "A9759D22-6223-4EC3-A869-36CC27BE8386 - f991fd06fcaa41f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.TopViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; sns_sample.TopViewController"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/TopViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "A9759D22-6223-4EC3-A869-36CC27BE8386 - 974b404fbc1bbe3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.TopViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;sns_sample.TopViewController&gt;"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/TopViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "692D0557-7816-4EFC-993F-D71321385528"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sns.sample/HomeController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "goToNextScreen(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67DCEDEB-372F-4F73-B7EF-53401CFDFFE6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sns.sample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "readUserData(uid:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5CAF92C-8D36-4B0D-A03B-421CA9FDD1D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sns.sample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C5CAF92C-8D36-4B0D-A03B-421CA9FDD1D6 - 67e122e9da510ec5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.ViewController.signUpMailtextField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "C5CAF92C-8D36-4B0D-A03B-421CA9FDD1D6 - acff8a2f4c175ad1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.ViewController.signUpMailtextField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "C5CAF92C-8D36-4B0D-A03B-421CA9FDD1D6 - 1d6e2d4193a591c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.ViewController.signUpMailtextField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C5CAF92C-8D36-4B0D-A03B-421CA9FDD1D6 - 1d51ca573d59debb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.ViewController.signUpMailtextField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "C5CAF92C-8D36-4B0D-A03B-421CA9FDD1D6 - 50d73e69375dfa06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; sns_sample.ViewController"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "C5CAF92C-8D36-4B0D-A03B-421CA9FDD1D6 - b5c5b0c7fb4f47a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sns_sample.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;sns_sample.ViewController&gt;"
+                  moduleName = "sns.sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rifahtabassumako/Desktop/sns.sample/sns.sample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

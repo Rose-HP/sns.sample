@@ -227,6 +227,7 @@
                     <connections>
                         <outlet property="memoLable" destination="vh7-c9-jBb" id="yGM-mE-DqE"/>
                         <outlet property="outlineLabel" destination="uK5-hL-01Y" id="qQL-yd-oZe"/>
+                        <outlet property="saveButton" destination="Yar-qN-K1O" id="LL9-Xa-MIN"/>
                         <outlet property="titleLabel" destination="get-hE-YwJ" id="1ux-Z8-9Dz"/>
                         <outlet property="username" destination="OFI-oX-7Ge" id="11v-Wf-DDL"/>
                     </connections>

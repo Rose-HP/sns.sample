@@ -10,7 +10,7 @@ import UIKit
 import FirebaseAuth
 import AVFoundation
 
-class HomeController: UIViewController, UIImagePickerControllerDelegate, UIImagePickerController, UINavigationControllerDelegate {
+class HomeController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     
     

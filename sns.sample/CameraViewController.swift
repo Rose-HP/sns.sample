@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-
+import UIKit
 
 class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -37,7 +37,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         // UIImagePickerController カメラが閉じる
         self.dismiss(animated: true, completion: nil)
     }
-    
     
     }
 

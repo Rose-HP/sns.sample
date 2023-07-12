@@ -19,11 +19,35 @@ class PreviewViewController: UIViewController {
     var titleText: String? = ""
     var outlineText: String? = ""
     var MemoText: String? = ""
-    
-    
-    @IBAction func SaveDataButton(_ sender:Any) {
-        
+    var fromSelectView: Bool = false     // PreviewViewController.swift
+
+    @IBOutlet var saveButton: UIButton!
+
+    @IBAction func SaveDataButton(){
+        let db = Firestore.firestore()
+        var ref: DocumentReference? = nil
+        ref = db.collection("users")
+                        .document(String(Auth.auth().currentUser?.uid ?? "default"))
+              .collection("results")
+              .addDocument(data: [
+                    "title": titleText,
+                    "outline": outlineText,
+                    "memo": MemoText
+              ]) { err in
+                  if let err = err {
+                      print("Error writing document: \(err)")
+                  } else {
+                    print("Document added with ID: \(ref!.documentID)")
+                }
+                        }
     }
+    
+    func go2Back(){
+        // 2階層前のViewControllerに戻るコード！
+        let layer_number = navigationController!.viewControllers.count
+        self.navigationController?.popToViewController(navigationController!.viewControllers[layer_number-2], animated: true)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,8 +56,12 @@ class PreviewViewController: UIViewController {
         outlineLabel.text = outlineText
         memoLable.text = MemoText
         
-        
-
+        if fromSelectView {
+            
+            saveButton.isHidden = true
+            
+            
+        }
         // Do any additional setup after loading the view.
     }
     
