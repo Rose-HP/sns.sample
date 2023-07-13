@@ -51,7 +51,11 @@ class SelectViewController: UIViewController,UITableViewDataSource,UITableViewDe
 
     }
     
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        
         return nameArray.count // 配列に含まれているデータの数だけセルを作る！
     }
 
@@ -86,7 +90,9 @@ class SelectViewController: UIViewController,UITableViewDataSource,UITableViewDe
           nextVC.fromSelectView = true
           
       }
-  }
+        
+      
+        }
 
 class SelectViewController: UIViewController,UITableViewDataSource {
     var nameArray: [String] = [""]
@@ -100,8 +106,8 @@ class SelectViewController: UIViewController,UITableViewDataSource {
     }
     
     @IBOutlet var table: UITableView!
-
-
+    
+    
     
     
     

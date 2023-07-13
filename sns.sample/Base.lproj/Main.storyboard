@@ -370,6 +370,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="table" destination="2Dl-Lp-ry3" id="DBD-xW-jEc"/>
+                        <segue destination="bPL-VA-bdI" kind="show" identifier="ToPreview" id="4DD-5j-flD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5JN-88-ho6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -556,6 +557,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="HYK-CL-05O"/>
+        <segue reference="4DD-5j-flD"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
