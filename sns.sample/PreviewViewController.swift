@@ -38,14 +38,17 @@ class PreviewViewController: UIViewController {
                       print("Error writing document: \(err)")
                   } else {
                     print("Document added with ID: \(ref!.documentID)")
-                }
+                      self.go2Back()                }
                         }
     }
     
     func go2Back(){
         // 2階層前のViewControllerに戻るコード！
         let layer_number = navigationController!.viewControllers.count
-        self.navigationController?.popToViewController(navigationController!.viewControllers[layer_number-2], animated: true)
+        
+        (navigationController!.viewControllers[layer_number-3] as! SelectViewController).viewDidLoad() // TableViewを更新するため(あまり望ましくないけど、応急処置)
+                
+        self.navigationController?.popToViewController(navigationController!.viewControllers[layer_number-3], animated: true);         self.navigationController?.popToViewController(navigationController!.viewControllers[layer_number-2], animated: true)
     }
     
     

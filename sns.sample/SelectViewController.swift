@@ -94,7 +94,7 @@ class SelectViewController: UIViewController,UITableViewDataSource,UITableViewDe
       
         }
 
-class SelectViewController: UIViewController,UITableViewDataSource {
+    class SelectViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
     var nameArray: [String] = [""]
     var outlineArray: [String] = [""]
     var memoArray: [String] = [""]
@@ -115,8 +115,15 @@ class SelectViewController: UIViewController,UITableViewDataSource {
         super.viewDidLoad()
         
         table.dataSource = self
+        table.delegate = self
+        
         
         let db = Firestore.firestore()
+        
+        nameArray = []
+        outlineArray = []
+        memoArray = []
+        
           db.collection("users")
             .document(String(Auth.auth().currentUser?.uid ?? "default"))
             .collection("results")
@@ -124,13 +131,14 @@ class SelectViewController: UIViewController,UITableViewDataSource {
             if let err = err {
               print("Error getting documents: \(err)")
             } else {
-              for document in querySnapshot!.documents {
-                  // 取得したドキュメントごとに実行する
-                  print("\(document.documentID) => \(document.data())")
-                  let data = document.data()
-                  self.nameArray.append(data["title"] as? String ?? "Title:Error") // TableViewに表示＋(選ばれたら)遷移先に送信
-                  self.outlineArray.append(data["outline"] as? String ?? "Outline:Error") // TableViewに表示＋(選ばれたら)遷移先に送信
-                  self.memoArray.append(data["memo"] as? String ?? "Memo:Error") // (選ばれたら)遷移先に送信
+                for document in querySnapshot!.documents {
+                    // 取得したドキュメントごとに実行する
+                    print("\(document.documentID) => \(document.data())")
+                    let data = document.data()
+                    self.nameArray.append(data["title"] as? String ?? "Title:Error") // TableViewに表示＋(選ばれたら)遷移先に送信
+                    self.outlineArray.append(data["outline"] as? String ?? "Outline:Error") // TableViewに表示＋(選ばれたら)遷移先に送信
+                    self.memoArray.append(data["memo"] as? String ?? "Memo:Error") // (選ばれたら)遷移先に送信
+                    self.table.reloadData()
                 }
             }
             }
